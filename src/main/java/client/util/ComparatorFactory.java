@@ -22,7 +22,7 @@ public class ComparatorFactory {
     static {
         comparatorMap.put("alpha", new AlphaComparator());
         comparatorMap.put("count", new CountComparator());
-        comparatorMap.put(null, new DefaultComparator());
+        comparatorMap.put("", new DefaultComparator());
         comparatorMap.put(null, new DefaultComparator());
 
     }
