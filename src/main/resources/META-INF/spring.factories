@@ -1,0 +1,10 @@
+org.springframework.boot.autconfigure.EnableAutoConfiguration=\
+  config.BeanCounterConfig,\
+  store.file.FileStoreManager,\
+  store.database.config.DataSourceConfig,\
+  store.database.config.DefaultDataSourceConfig,\
+  store.database.manager.DataStoreRepository,\
+  advise.processor.BeanBasicCheckProcessor,\
+  advise.processor.BeanCircularCheckProcessor,\
+  advise.processor.BeanCounterProcessor,\
+  client.service.BeanCounterService
